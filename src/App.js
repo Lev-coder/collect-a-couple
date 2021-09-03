@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
 
 import StyleForApp from './App.module.css';
 
-import Map from './сomponents/map/Map';
+import Home from './pages/Home/Home';
 
 class App extends React.Component
 {
@@ -11,7 +10,7 @@ class App extends React.Component
   {
     return (
       <div className="App">
-        
+        <Home/>
       </div>
     );
   }

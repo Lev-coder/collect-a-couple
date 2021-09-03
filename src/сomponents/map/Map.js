@@ -1,13 +1,12 @@
 import React from 'react';
 
-
-import CardView from './MapView';
+import MapView from './MapView';
 
 class Map extends React.Component
 {
     render()
     {
-        return 
+        return <MapView/>
     }
 }
 

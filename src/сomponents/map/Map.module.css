@@ -1,0 +1,9 @@
+.map{
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: srepeat(3,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
