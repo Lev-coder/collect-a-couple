@@ -6,13 +6,17 @@ import Button from '../../сomponents/button/Button';
 
 import StyleForHome from './Home.module.css';
 
-class HomeView extends React.Component
-{
-    render()
-    {
+class HomeView extends React.Component {
+
+    constructor({ icons }) {
+        super();
+        this.icons = icons;
+    }
+
+    render() {
         return <div className={StyleForHome.home}>
             <Timer />
-            <Map />;
+            <Map icons={this.icons} />
             <Button />
         </div>
     }

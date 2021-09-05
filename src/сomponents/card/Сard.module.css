@@ -2,7 +2,10 @@
 {
     border:solid;
     border-radius: 15px;
+
     text-align: center;
+    font-size: 150px;
+
     width: 200px;
     height: 200px;
 }

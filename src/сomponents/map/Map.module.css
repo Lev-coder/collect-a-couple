@@ -1,9 +1,9 @@
 .map{
-    margin-top: 50px;
+    margin-top: 20px;
 
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: srepeat(3,1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
 }

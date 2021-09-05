@@ -1,6 +1,6 @@
 import React from 'react';
 
-import StyleForApp from './App.module.css';
+// import StyleForApp from './App.module.css';
 
 import Home from './pages/Home/Home';
 

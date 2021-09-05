@@ -8,7 +8,7 @@ class Home extends React.Component
 {
     render()
     {
-        return <HomeView icons ={icons}/>;
+        return <HomeView icons ={icons}/>
     }
 }
 
